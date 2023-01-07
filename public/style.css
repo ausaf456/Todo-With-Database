@@ -1,0 +1,145 @@
+body{
+    background-image: url(/images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+height: 100vh;
+margin: 0;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+    font-size: 45px;
+    color: red;
+    margin-left: 5%;
+}
+
+button{
+    width: 200px;
+    height: 80px;
+    margin: 5px 5px; 
+     margin-left: 10px;  
+     padding-left: 50px;
+    border-radius: 25px;
+    background-color: yellow;
+    font-size: 30px;
+
+}
+button:hover{
+    background-color:#E62118;
+    cursor: pointer;
+}
+.todays{
+    display: inline-flex;
+
+    color: rgb(15, 9, 9);
+  margin-left: 5%;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background:linear-gradient(90deg , rgb(58, 3, 58), #fff,rgb(60, 2, 75));
+  
+}
+
+.work{
+    font-size: 30px;
+    font-style: italic;
+    list-style: circle;
+    /* margin-left: 30px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #F7F7F9;
+    /* background-color: rgb(21, 2, 39); */
+    background-color: #170642;
+    
+}
+h3{
+  font-size: 22px;
+}
+
+.btn{
+  font-size: 20px;
+}
+h4{
+  font-size: 20px;
+}
+#inp{
+  height: 60px;
+  width: 50%;
+}
+.btn{
+  height: 60px;
+  font-size: 20px;
+  width: 45%;
+}
+.btntext{
+  font-size: 16px;
+ 
+}
+.todotext{
+  font-size: 20px;
+}
+          @media only screen and (max-width: 700px) {
+            h4{
+              font-size: 18px;
+            }
+            #inp{
+              height: 40px;
+              width: 50%;
+            }
+            .btn{
+              height: 40px;
+              font-size: 16px;
+              width: 45%;
+            }
+            .btntext{
+              font-size: 12px;
+             
+            }
+            .todotext{
+              font-size: 18px;
+            }
+       
+                .work{
+                    font-size: 19px;
+                  }
+
+     
+  }
+          @media only screen and (max-width: 500px) {
+            h4{
+              font-size: 16px;
+            }
+            #inp{
+              height: 40px;
+              width: 50%;
+            }
+            .btn{
+              height: 40px;
+              font-size: 16px;
+              width: 45%;
+            }
+            .btntext{
+              font-size: 12px;
+             
+            }
+            .todotext{
+              font-size: 18px;
+            }
+            
+          
+                .work{
+                    font-size: 19px;
+                  }
+
+     
+  }
+
+ 
+ 
+ 
